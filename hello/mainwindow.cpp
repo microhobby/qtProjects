@@ -7,6 +7,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->addSignals();
+
+    /* maximized */
+    //QWidget::showMaximized();
+
+    /* centralized */
+
 }
 
 void MainWindow::addSignals()
